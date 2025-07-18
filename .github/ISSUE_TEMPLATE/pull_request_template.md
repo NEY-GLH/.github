@@ -1,37 +1,39 @@
 ## Title
 
-- Add a title for your PR
+- Replace the 'Title' with a good title for your PR!
 
 
 ## Aim and background
 
 - State background in a sentence or two
-    - 'Users reported that API calls were failing under high load'
-    - 'Users were asking for an easier way to obtain data as files'.
+    - E.g. 'Users reported that API calls were failing under high load'.
+    - E.g. 'Users were asking for an easier way to obtain data as files'.
 - Link any relevant bugs or enhancements
-    - E.g. The original API call issue repor
+    - E.g. The original API call bug ticket.
     - E.g. The enhancement request for data export.
 - State the aim of your PR
-    - E.g. 'Reduce number of API complaints from users'
+    - E.g. 'Stop API complaints from users by making code handle API interruptions more elegantly'.
     - E.g. 'Add a data export function in the web interface'.
 
 
 ## Changes made
 
 - Briefly describe the changes you've made:
-    - E.g. 'a longer wait was added between API calls'
+    - E.g. 'A longer wait time was added between API calls'.
     - E.g. 'I built an export function, which queries the database for entries made by a user in a date range, and outputs a CSV'.
 
 
 ## Code style
 
-- Have you run the 'black' PEP8 formatter? This is available as a VS Code add-on.
+- Have you run the 'Black' PEP8 formatter? This is available as a VS Code extension, called 'Black Formatter'.
+- You can set this up to run on saved files.
 
 
 ## Unit testing
 
-- If you've written unit tests - have you run them? 
-    - Provide the summary output.
+- If you've written unit tests - do they pass? 
+    - Run them and provide the summary output.
+    - If possible, provide a summary coverage report for the sections of code you've changed.
     - Explain where you left gaps and why.
 - If there are unit tests failing which you didn't write - show that you've checked this isn't caused by your code.
     - If this is a known bug: Link known issues for this repository.
@@ -51,7 +53,7 @@
 
 ## Documentation and validation
 
-- List documentation that will need changing or writing
+- List documentation that will need changing or writing.
 - Indicate the level of validation required - if the output used for downstream analysis could be affected by the changes, then a higher level of validation will be required.
 
 
@@ -62,4 +64,5 @@
 
 ## Tickets closed by this PR
 
-- Use the 'Closes' keyword to make this auto-close on merge. See formatting here: https://docs.github.com/en/issues/tracking-your-work-with-issues/using-issues/linking-a-pull-request-to-an-issue
+- You can use the 'Closes' keyword to make tagged tickets auto-close when the PR is merged.
+- See formatting here: https://docs.github.com/en/issues/tracking-your-work-with-issues/using-issues/linking-a-pull-request-to-an-issue
