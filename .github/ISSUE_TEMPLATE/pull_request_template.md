@@ -25,7 +25,10 @@
 
 ## Code style
 
-- If you are writing in Python: Have you run the 'Black' PEP8 formatter? This is available as a VS Code extension, called 'Black Formatter'. You can set this up to run on saved files.
+- If you are writing Python:
+    - Have you run the 'Black' PEP8 formatter? This is available as a VS Code extension, called 'Black Formatter'.
+    - You can set this up to run on saved files.
+    - PEP8: https://peps.python.org/pep-0008/
 
 
 ## Unit testing
