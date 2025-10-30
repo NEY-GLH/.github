@@ -23,14 +23,14 @@
     - E.g. 'I built an export function, which queries the database for entries made by a user in a date range, and outputs a CSV'.
 
 
-## Pre-review checklist (Python code only)
+## Pre-review checklist
 - [ ] I have updated the branch from its parent branch recently
-- [ ] I have run the Black PEP8 formatter, or taken other measures to ensure PEP8 compliance (https://peps.python.org/pep-0008/)
+- [ ] (Python only) I have run the Black PEP8 formatter*, or taken other measures to ensure PEP8 compliance (https://peps.python.org/pep-0008/)
 - [ ] I have created or updated a '.gitignore' file
 - [ ] I have created or updated the 'ChangeLog.rst' file
-- [ ] I have created or updated a 'requirements.txt' file, if deployment involves pip environments or Docker/Singularity containerisation (https://pip.pypa.io/en/stable/reference/requirements-file-format/)
+- [ ] (Python only) I have created or updated a 'requirements.txt' file, if deployment involves pip environments or Docker/Singularity containerisation (https://pip.pypa.io/en/stable/reference/requirements-file-format/)
 
-The Black PEP8 formatter is available as a VS Code extension, called 'Black Formatter'.
+*The Black PEP8 formatter is available as a VS Code extension, called 'Black Formatter'.
 
 
 ## Unit testing
