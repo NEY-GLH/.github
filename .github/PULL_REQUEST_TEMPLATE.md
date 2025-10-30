@@ -23,12 +23,14 @@
     - E.g. 'I built an export function, which queries the database for entries made by a user in a date range, and outputs a CSV'.
 
 
-## Code style
+## Pre-review checklist (Python code only)
+- [ ] I have updated the branch from its parent branch recently
+- [ ] I have run the Black PEP8 formatter, or taken other measures to ensure PEP8 compliance (https://peps.python.org/pep-0008/)
+- [ ] I have created or updated a '.gitignore' file
+- [ ] I have created or updated the 'ChangeLog.rst' file
+- [ ] I have created or updated a 'requirements.txt' file, if deployment involves pip environments or Docker/Singularity containerisation (https://pip.pypa.io/en/stable/reference/requirements-file-format/)
 
-- If you are writing in Python:
-    - Have you run the 'Black' PEP8 formatter? This is available as a VS Code extension, called 'Black Formatter'.
-    - You can set this up to run on saved files.
-    - PEP8: https://peps.python.org/pep-0008/
+The Black PEP8 formatter is available as a VS Code extension, called 'Black Formatter'.
 
 
 ## Unit testing
@@ -55,6 +57,7 @@
 
 ## Documentation and validation
 
+This section is necessary if this PR is to create a deployment version.
 - List documentation that will need changing or writing.
 - Indicate the level of validation required - if the output used for downstream analysis could be affected by the changes, then a higher level of validation will be required.
 
