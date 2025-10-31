@@ -56,8 +56,8 @@
 
 
 ## Documentation and validation
-
-This section is necessary if this PR is to create a deployment version.
+> [!NOTE] 
+> This section is **mandatory** if this PR is to create a deployment version.
 - List documentation that will need changing or writing.
 - Indicate the level of validation required - if the output used for downstream analysis could be affected by the changes, then a higher level of validation will be required.
 
