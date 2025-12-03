@@ -27,7 +27,7 @@
 - [ ] I have updated this branch from its parent branch recently (e.g by merging or rebasing)
 - [ ] (Python only) I have run the Black PEP8 formatter*, or taken other measures to ensure PEP8 compliance (https://peps.python.org/pep-0008/)
 - [ ] I have created or updated a '.gitignore' file
-- [ ] I have created or updated the 'ChangeLog.rst' file
+- [ ] I have created or updated the changelog file
 - [ ] I've checked that the 'README.md' file is up-to-date with my new changes
 - [ ] (Python only) I have created or updated a 'requirements.txt' file, if deployment involves pip environments or Docker/Singularity containerisation (https://pip.pypa.io/en/stable/reference/requirements-file-format/)
 
