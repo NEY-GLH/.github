@@ -23,7 +23,7 @@
     - E.g. 'I built an export function, which queries the database for entries made by a user in a date range, and outputs a CSV'.
 
 
-## Pre-review checklist
+## Pre-review checklist - for the author
 - [ ] I have updated this branch from its parent branch recently (e.g by merging or rebasing)
 - [ ] (Python only) I have run the Black PEP8 formatter*, or taken other measures to ensure PEP8 compliance (https://peps.python.org/pep-0008/)
 - [ ] I have created or updated a '.gitignore' file
@@ -59,7 +59,7 @@
 ## Documentation and validation
 > [!NOTE] 
 > This section is **mandatory** if this PR is to create a deployment version.
-- List documentation that will need changing or writing.
+- List documentation that will need changing or writing, which may include validations, risk assessments, and manuals for users and developers.
 - Indicate the level of validation required - if the output used for downstream analysis could be affected by the changes, then a higher level of validation will be required.
 
 
@@ -72,3 +72,12 @@
 
 - You can use the 'Closes' keyword to make tagged tickets auto-close when the PR is merged.
 - See formatting here: https://docs.github.com/en/issues/tracking-your-work-with-issues/using-issues/linking-a-pull-request-to-an-issue
+
+
+## Post-review checklist - for the reviewer
+- [ ] This branch has been updated from its parent branch recently (e.g by merging or rebasing)
+- [ ] (Python only) The code is PEP8 compliant (https://peps.python.org/pep-0008/)
+- [ ] The '.gitignore' file is up to date
+- [ ] The changelog file is up to date
+- [ ] The 'README.md' file is up to date
+- [ ] (Python only) A 'requirements.txt' file is present, if appropriate for deployment of this project (https://pip.pypa.io/en/stable/reference/requirements-file-format/)
