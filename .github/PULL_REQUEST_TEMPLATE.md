@@ -23,12 +23,15 @@
     - E.g. 'I built an export function, which queries the database for entries made by a user in a date range, and outputs a CSV'.
 
 
-## Code style
+## Pre-review checklist - for the author
+- [ ] Branch has been updated from its parent branch recently (e.g by merging or rebasing)
+- [ ] Code is appropriately formatted (e.g Python code is PEP8 compliant - Black formatter may be helpful*)
+- [ ] '.gitignore' file is present and up-to-date.
+- [ ] Changelog file is present and up-to-date.
+- [ ] Readme file is present and up-to-date.
+- [ ] Dependencies are recorded and up-to-date (e.g 'requirements.txt', environment files, Conda env YAML, etc)
 
-- If you are writing in Python:
-    - Have you run the 'Black' PEP8 formatter? This is available as a VS Code extension, called 'Black Formatter'.
-    - You can set this up to run on saved files.
-    - PEP8: https://peps.python.org/pep-0008/
+*The Black PEP8 formatter is available as a VS Code extension, called 'Black Formatter'.
 
 
 ## Unit testing
@@ -54,8 +57,9 @@
 
 
 ## Documentation and validation
-
-- List documentation that will need changing or writing.
+> [!NOTE] 
+> This section is **mandatory** if this PR is to create a deployment version.
+- List documentation that will need changing or writing, which may include validations, risk assessments, and manuals for users and developers.
 - Indicate the level of validation required - if the output used for downstream analysis could be affected by the changes, then a higher level of validation will be required.
 
 
@@ -68,3 +72,14 @@
 
 - You can use the 'Closes' keyword to make tagged tickets auto-close when the PR is merged.
 - See formatting here: https://docs.github.com/en/issues/tracking-your-work-with-issues/using-issues/linking-a-pull-request-to-an-issue
+
+
+## Post-review checklist - for the reviewer
+- [ ] Branch has been updated from its parent branch recently (e.g by merging or rebasing)
+- [ ] Code is appropriately formatted (e.g Python code is PEP8 compliant - Black formatter may be helpful*)
+- [ ] '.gitignore' file is present and up-to-date.
+- [ ] Changelog file is present and up-to-date.
+- [ ] Readme file is present and up-to-date.
+- [ ] Dependencies are recorded and up-to-date (e.g 'requirements.txt', environment files, Conda env YAML, etc)
+
+*The Black PEP8 formatter is available as a VS Code extension, called 'Black Formatter'.
