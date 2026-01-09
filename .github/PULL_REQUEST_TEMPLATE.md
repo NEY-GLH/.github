@@ -24,12 +24,12 @@
 
 
 ## Pre-review checklist - for the author
-- [ ] I have updated this branch from its parent branch recently (e.g by merging or rebasing)
-- [ ] (Python only) I have run the Black PEP8 formatter*, or taken other measures to ensure PEP8 compliance (https://peps.python.org/pep-0008/)
-- [ ] I have created or updated a '.gitignore' file
-- [ ] I have created or updated the changelog file
-- [ ] I've checked that the 'README.md' file is up-to-date with my new changes
-- [ ] (Python only) I have created or updated a 'requirements.txt' file, if deployment involves pip environments or Docker/Singularity containerisation (https://pip.pypa.io/en/stable/reference/requirements-file-format/)
+- [ ] Branch has been updated from its parent branch recently (e.g by merging or rebasing)
+- [ ] Code is appropriately formatted (e.g Python code is PEP8 compliant (Black formatter may be helpful*))
+- [ ] '.gitignore' file is present and up-to-date.
+- [ ] Changelog file is present and up-to-date.
+- [ ] Readme file is present and up-to-date.
+- [ ] Dependencies are recorded and up-to-date (e.g 'requirements.txt', environment files, Conda env YAML, etc)
 
 *The Black PEP8 formatter is available as a VS Code extension, called 'Black Formatter'.
 
